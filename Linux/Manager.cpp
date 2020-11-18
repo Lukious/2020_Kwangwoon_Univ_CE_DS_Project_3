@@ -127,7 +127,7 @@ Result Manager::FindShortestPathBellmanFord(int startVertexKey, int endVertexKey
     // TODO: implement
 }
 
-Result Manager::RabinKarpCompare(const char* CompareString)
+Result Manager::RabinKarpCompare(const char* CompareString,const char* ComparedString)
 {
     // TODO: implement
 }

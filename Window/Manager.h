@@ -34,7 +34,7 @@ private:
     Result FindShortestPathDijkstraUsingMinHeap(int startVertexKey, int endVertexKey);
     Result FindShortestPathBellmanFord(int startVertexKey, int endVertexKey);
     Result FindShortestPathFloyd();
-    Result RabinKarpCompare(const char* CompareString)
+    Result RabinKarpCompare(const char* CompareString, const char* ComparedString);
 };
 
 #endif
