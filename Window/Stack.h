@@ -19,7 +19,7 @@ private:
     };
 
 private:
-    // the head pointer of the stack
+    // the head pointer of the stack and queue
     StackNode* m_pTop;
 
 public:
@@ -27,31 +27,31 @@ public:
     ~Stack();
 
     /// <summary>
-    /// push the data into this stack
+    /// push the data into this stack and queue
     /// </summary>
     ///
     /// <param name="data">
-    /// a data to push into this stack
+    /// a data to push into this stack and queue
     /// </param>
     void Push(T data);
     /// <summary>
-    /// pop(remove) the last-in data from this stack
+    /// pop(remove) the last-in data from this stack and queue
     /// </summary>
     void Pop();
     /// <summary>
-    /// get the last-in data of this stack
+    /// get the last-in data of this stack and queue
     /// </summary>
     /// 
     /// <returns>
-    /// the last-in data of this stack
+    /// the last-in data of this stack and queue
     /// </returns>
     T Top();
     /// <summary>
-    /// check whether this stack is empty or not.
+    /// check whether this stack and queue is empty or not.
     /// </summary>
     ///
     /// <returns>
-    /// true if this stack is empty.
+    /// true if this stack and queue is empty.
     /// false otherwise.
     /// </returns>
     bool IsEmpty();

@@ -3,7 +3,7 @@
 #include "MinHeap.h"
 #include <set>
 
-#define DFS_FIRST_PATH
+#define BFS_FIRST_PATH
 
 Graph::Graph()
 {

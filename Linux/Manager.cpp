@@ -51,7 +51,7 @@ Result Manager::Print()
     // TODO: implement
 }
 /// <summary>
-/// find the path from startVertexKey to endVertexKey with DFS (stack)
+/// find the path from startVertexKey to endVertexKey with BFS (stack and queue)
 /// </summary>
 ///
 /// <param name="startVertexKey">
