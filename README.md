@@ -15,6 +15,9 @@ Update skeleton code for 'Queue' data structure (It doesn't matter if you don't 
 
 Fix minor typo on proposal and skeleton codes
 
+### 20201118 ver 1.1
+Update 'UPDATE' Commands spec. [No need to be print updated graph infomation, updated value will be evaluate by PRINT command]
+
 ## How to Clone Repository
 ```
 sudo apt-get install git
